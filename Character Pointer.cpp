@@ -9,7 +9,7 @@ int main()
     ptr = &character;
     character = 'a';
     cout<<*ptr<<endl;
-    cout<<(void*)ptr;;
+    cout<<(void*)ptr;
 
     return 0;
 }
